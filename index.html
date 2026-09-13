@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Free Samples - Check Your Eligibility</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#fff5f7,#ffe1e8,#f8f9ff);
+    color:#171717;
+}
+
+/* TOP BAR */
+.topbar{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:11px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* MAIN */
+.container{
+    max-width:1050px;
+    margin:auto;
+    padding:25px 15px 50px;
+}
+
+/* HERO */
+.hero{
+    position:relative;
+    overflow:hidden;
+    background:linear-gradient(135deg,#ff6268,#e90048,#9d003f);
+    border-radius:28px;
+    padding:55px 35px;
+    color:white;
+    box-shadow:0 20px 55px rgba(160,0,60,.25);
+}
+
+.hero:before{
+    content:"";
+    position:absolute;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    right:-100px;
+    top:-120px;
+}
+
+.hero:after{
+    content:"";
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    left:-100px;
+    bottom:-120px;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:700px;
+}
+
+.badge{
+    display:inline-block;
+    background:rgba(255,255,255,.18);
+    border:1px solid rgba(255,255,255,.35);
+    padding:9px 15px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:clamp(38px,6vw,65px);
+    line-height:1;
+    letter-spacing:-2px;
+    margin-bottom:20px;
+}
+
+.description{
+    font-size:18px;
+    line-height:1.6;
+    color:#fff8fa;
+}
+
+/* BUTTON */
+.cta{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-top:28px;
+    padding:17px 28px;
+    background:#fff;
+    color:#c40043;
+    text-decoration:none;
+    border-radius:14px;
+    font-size:17px;
+    font-weight:900;
+    box-shadow:0 12px 30px rgba(0,0,0,.22);
+    transition:.25s;
+}
+
+.cta:hover{
+    transform:translateY(-3px);
+    box-shadow:0 17px 35px rgba(0,0,0,.28);
+}
+
+.note{
+    margin-top:12px;
+    font-size:12px;
+    opacity:.85;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-top:22px;
+}
+
+.card{
+    background:rgba(255,255,255,.9);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.07);
+    border:1px solid rgba(0,0,0,.05);
+}
+
+.icon{
+    width:48px;
+    height:48px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#ffe6ed;
+    border-radius:14px;
+    font-size:23px;
+    margin-bottom:15px;
+}
+
+.card h2{
+    font-size:19px;
+    margin-bottom:8px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.55;
+    font-size:14px;
+}
+
+/* OFFER BOX */
+.offer{
+    margin-top:22px;
+    background:white;
+    border-radius:24px;
+    padding:35px 20px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.offer h2{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.offer p{
+    color:#666;
+    line-height:1.5;
+}
+
+.payout{
+    color:#c40043;
+    font-size:20px;
+    font-weight:900;
+    margin-top:16px;
+}
+
+.pill{
+    display:inline-block;
+    background:#f3f3f3;
+    padding:8px 13px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+    margin:12px 3px 0;
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    color:#777;
+    font-size:11px;
+    line-height:1.6;
+    max-width:800px;
+    margin:25px auto 0;
+}
+
+/* MOBILE */
+@media(max-width:760px){
+
+    .container{
+        padding:16px 12px 35px;
+    }
+
+    .hero{
+        padding:38px 22px;
+        border-radius:22px;
+    }
+
+    h1{
+        font-size:42px;
+        letter-spacing:-1px;
+    }
+
+    .description{
+        font-size:16px;
+    }
+
+    .cta{
+        width:100%;
+        padding:16px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .offer{
+        padding:28px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+🇺🇸 Sample Offer • Check Availability & Eligibility
+</div>
+
+<div class="container">
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                ✨ FREE SAMPLE OPPORTUNITY
+            </div>
+
+            <h1>
+                Find Samples You May Qualify For
+            </h1>
+
+            <p class="description">
+                Interested in trying products and samples?
+                Start with the offer below and follow the
+                instructions to see whether you qualify.
+            </p>
+
+            <!-- CPA OFFER LINK -->
+            <a
+                class="cta"
+                href="https://tundrafile.com/show.php?l=0&u=255274"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Check the Offer →
+            </a>
+
+            <p class="note">
+                Eligibility and availability are determined by the offer provider.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMATION CARDS -->
+    <section class="cards">
+
+        <div class="card">
+
+            <div class="icon">
+                🎁
+            </div>
+
+            <h2>
+                Sample Opportunities
+            </h2>
+
+            <p>
+                Explore the available sample offer and
+                review the requirements before continuing.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                📱
+            </div>
+
+            <h2>
+                Simple Process
+            </h2>
+
+            <p>
+                Tap the button, review the offer details,
+                and complete the steps shown by the provider.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">
+                🔒
+            </div>
+
+            <h2>
+                Review First
+            </h2>
+
+            <p>
+                Always review the provider's terms,
+                privacy information and eligibility requirements.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- OFFER SECTION -->
+    <section class="offer">
+
+        <h2>
+            Ready to Check?
+        </h2>
+
+        <p>
+            Use the button below to open the current sample offer.
+        </p>
+
+        <div class="payout">
+            Potential Offer Payout: $2.40
+        </div>
+
+        <span class="pill">
+            🇺🇸 US Offer
+        </span>
+
+        <span class="pill">
+            📱 Android Eligibility
+        </span>
+
+        <br>
+
+        <!-- CPA OFFER LINK -->
+        <a
+            class="cta"
+            href="https://tundrafile.com/show.php?l=0&u=255274"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View Offer Now →
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+
+        This page is an independent promotional landing page
+        and is not affiliated with or endorsed by the brands
+        shown in the offer.
+
+        Offer availability, eligibility, rewards and terms
+        are controlled by the third-party offer provider.
+
+        Please review the provider's terms and privacy policy
+        before submitting any information.
+
+    </div>
+
+</div>
+
+</body>
+</html>
